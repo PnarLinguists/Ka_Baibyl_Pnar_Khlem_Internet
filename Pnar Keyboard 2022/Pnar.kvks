@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visualkeyboard>
+  <header>
+    <version>10.0</version>
+    <kbdname>Pnar</kbdname>
+    <flags>
+      <usealtgr/>
+    </flags>
+  </header>
+  <encoding name="unicode" fontname="Arial" fontsize="-12">
+    <layer shift="SRA">
+      <key vkey="K_I">Ï</key>
+      <key vkey="K_N">Ñ</key>
+      <key vkey="K_PERIOD">Ï</key>
+      <key vkey="K_COMMA">Ñ</key>
+    </layer>
+    <layer shift="RA">
+      <key vkey="K_I">ï</key>
+      <key vkey="K_N">ñ</key>
+      <key vkey="K_PERIOD">ï</key>
+      <key vkey="K_COMMA">ñ</key>
+    </layer>
+    <layer shift="SLA">
+      <key vkey="K_PERIOD">Ï</key>
+      <key vkey="K_COMMA">Ñ</key>
+    </layer>
+    <layer shift="LA">
+      <key vkey="K_PERIOD">ï</key>
+      <key vkey="K_COMMA">ñ</key>
+    </layer>
+  </encoding>
+</visualkeyboard>

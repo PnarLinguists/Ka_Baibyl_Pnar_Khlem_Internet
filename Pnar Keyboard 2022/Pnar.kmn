@@ -1,0 +1,25 @@
+﻿c Created by Robert Rees for typing Pnar in Windows 7 and Windows 10
+store(&NAME) 'Pnar'
+store(&COPYRIGHT) '© 2022 Pioneer Bible Translators'
+store(&KEYBOARDVERSION) '1.04'
+store(&MESSAGE) 'Free for all to use and share. Code Available upon request. '
+store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
+store(&BITMAP) 'Pnar.ico'
+store(&VISUALKEYBOARD) 'Pnar.kvks'
+begin Unicode > use(main)
+
+group(main) using keys
++ [SHIFT RALT K_I] > 'Ï'
++ [SHIFT RALT K_N] > 'Ñ'
++ [RALT K_I] > 'ï'
++ [RALT K_N] > 'ñ'
++ [SHIFT LALT K_PERIOD] > 'Ï'
++ [SHIFT LALT K_COMMA] > 'Ñ'
++ [LALT K_PERIOD] > 'ï'
++ [LALT K_COMMA] > 'ñ'
+
+c Added to allow a more intuitive use of the keys
++ [RALT K_PERIOD] > 'ï'
++ [RALT K_COMMA] > 'ñ'
++ [SHIFT RALT K_PERIOD] > 'Ï'
++ [SHIFT RALT K_COMMA] > 'Ñ'
